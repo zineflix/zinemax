@@ -1,1 +1,1 @@
-Welcome to Zineplex
+Welcome to Zinemax
