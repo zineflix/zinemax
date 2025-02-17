@@ -19,10 +19,7 @@
 <body>
 <script>    
 // Disable Vidsrc.net Click Ads Events
-window.open = function() {};  // Blocks new window openings
-document.addEventListener('click', function(event) {
-    event.stopPropagation(); // Prevents unwanted click hijacks
-}, false);
+document.querySelectorAll('iframe, .ads, .advertisement, .popup, .overlay, #ad-container').forEach(el => el.remove());
 </script>    
     
 <!-- Google tag (gtag.js) -->
