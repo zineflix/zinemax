@@ -268,16 +268,12 @@ function openSearchPage() {
 
 // Array of movie endpoints with custom server names
 const MOVIE_ENDPOINTS = [
-    { url: 'https://vidsrc.net/embed/movie/', name: 'Server 1' },
-    { url: 'https://player.videasy.net/movie/', name: 'Server 2' },
-    { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Server 3' },
-    { url: 'https://vidlink.pro/movie/', name: 'Server 4' },
-    { url: 'https://111movies.com/movie/', name: 'Server 5' },    
-    { url: 'https://vidsrc.dev/embed/movie/', name: 'Server 6' },
-    { url: 'https://vidsrc.io/embed/movie/', name: 'Server 7' },
-    { url: 'https://moviesapi.club/movie/', name: 'Server 8' },
-    { url: 'https://vidsrc.vip/embed/movie/', name: 'Server 9' },
-    { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Server 10' },
+    { url: 'https://player.videasy.net/movie/', name: 'Server 1' },
+    { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Server 2' },
+    { url: 'https://111movies.com/movie/', name: 'Server 3' },
+    { url: 'https://embed.rgshows.me/api/1/movie/?id=', name: 'Server 4' },
+    { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Server 5' },
+    { url: 'https://vidsrc.vip/embed/movie/', name: 'Server 6' },
 ];
 
 // Get the movie ID from the URL query string
