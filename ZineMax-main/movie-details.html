@@ -17,6 +17,14 @@
     </head>   
     
 <body>
+<script>    
+// Disable Vidsrc.net Click Ads Events
+window.open = function() {};  // Blocks new window openings
+document.addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevents unwanted click hijacks
+}, true);
+</script>    
+    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ8V3HXD2E"></script>
 <script>
