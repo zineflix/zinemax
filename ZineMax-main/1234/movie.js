@@ -273,8 +273,6 @@ const MOVIE_ENDPOINTS = [
     { url: 'https://111movies.com/movie/', name: 'Server 3' },
     { url: 'https://embed.rgshows.me/api/1/movie/?id=', name: 'Server 4' },
     { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Server 5' },
-    { url: 'https://embed.su/embed/movie/', name: 'Server 6' },
-    { url: 'https://player.embed-api.stream/?id=', name: 'Server 7' },
 ];
 
 // Get the movie ID from the URL query string
