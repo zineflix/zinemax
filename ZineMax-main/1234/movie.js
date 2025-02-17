@@ -280,13 +280,6 @@ const MOVIE_ENDPOINTS = [
     { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Server 10' },
 ];
 
-// Disable Vidsrc.net Click Ads Events
-window.open = function() {};  // Blocks new window openings
-document.addEventListener('click', function(event) {
-    event.stopPropagation(); // Prevents unwanted click hijacks
-}, true);
-
-
 // Get the movie ID from the URL query string
 const urlParams = new URLSearchParams(window.location.search);
 const movieId = urlParams.get('movie_id');
