@@ -268,6 +268,7 @@ function openSearchPage() {
 
 // Array of movie endpoints with custom server names
 const MOVIE_ENDPOINTS = [
+    { url: 'https://vidsrc.vip/embed/movie/', name: 'Trial' },
     { url: 'https://player.videasy.net/movie/', name: 'Server 1' },
     { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Server 2' },
     { url: 'https://vidlink.pro/movie/', name: 'Server 3' },
