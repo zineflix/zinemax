@@ -268,7 +268,6 @@ function openSearchPage() {
 
 // Array of movie endpoints with custom server names
 const MOVIE_ENDPOINTS = [
-    { url: 'https://vidsrc.vip/embed/movie/', name: 'Trial' },
     { url: 'https://player.videasy.net/movie/', name: 'Server 1' },
     { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Server 2' },
     { url: 'https://vidlink.pro/movie/', name: 'Server 3' },
@@ -277,7 +276,8 @@ const MOVIE_ENDPOINTS = [
     { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Server 6' },
     { url: 'https://vidsrc.dev/embed/movie/', name: 'Server 7' },
     { url: 'https://vidsrc.io/embed/movie/', name: 'Server 8' },
-    { url: 'https://moviesapi.club/movie/', name: 'Server 9' }
+    { url: 'https://moviesapi.club/movie/', name: 'Server 9' },
+    { url: 'https://vidsrc.vip/embed/movie/', name: 'Server 10' },
 ];
 
 // Get the movie ID from the URL query string
