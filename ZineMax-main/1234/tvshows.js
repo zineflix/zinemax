@@ -226,10 +226,10 @@ function openSearchPage() {
 }
 
 const SERIES_ENDPOINTS = [
-    { url: 'https://player.videasy.net/tv/', name: 'Server 1' },
-    { url: 'https://vidsrc.cc/v2/embed/tv/', name: 'Server 2' },
-    { url: 'https://vidlink.pro/tv/', name: 'Server 3' },
-    { url: 'https://api.hexa.watch/tv/', name: 'Server 4' },
+    { url: 'https://vidsrc.net/embed/tv/', name: 'Server 1' },
+    { url: 'https://player.videasy.net/tv/', name: 'Server 2' },
+    { url: 'https://vidsrc.cc/v2/embed/tv/', name: 'Server 3' },
+    { url: 'https://vidlink.pro/tv/', name: 'Server 4' },
     { url: 'https://vidsrc.dev/embed/tv/', name: 'Server 5' },
     { url: 'https://vidsrc.io/embed/tv/', name: 'Server 6' },
     { url: 'https://vidsrc.vip/embed/tv/', name: 'Server 7' },
