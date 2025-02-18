@@ -1708,7 +1708,7 @@ background-color: #000000; /* Darker green on hover */
   color: white;  /* White color for MOVIES */
   display: inline-block; /* Keep MOVIES in one line */
   vertical-align: top; /* Align to the top */
-  margin-top: 0px;  /* Move "MOVIES" a little down */
+  margin-top: 25px;  /* Move "MOVIES" a little down */
   letter-spacing: -0.5px;  /* Slightly reduce spacing for a tighter look */
   margin-left: 5px;  /* A little space between "TOP" and "MOVIES" */
   line-height: 1;  /* Adjust line height for tighter spacing */
