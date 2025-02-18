@@ -1751,7 +1751,7 @@ h4 {
   }
 
   h4 {
-    font-size: 25px;  /* Smaller font size for h4 on mobile */
+    font-size: 15px;  /* Smaller font size for h4 on mobile */
     letter-spacing: 0.5px;  /* Adjust letter spacing */
     word-spacing: 0.5px;  /* Adjust word spacing */
   }
