@@ -1704,7 +1704,7 @@ background-color: #000000; /* Darker green on hover */
 /* Styles for the "MOVIES" text */
 .movies {
   font-family: "Electronica Display Outline";  
-  font-size: 25px;  /* Default font size */
+  font-size: 24px;  /* Default font size */
   color: white;  /* White color for MOVIES */
   display: inline-block; /* Keep MOVIES in one line */
   vertical-align: top; /* Align to the top */
@@ -1746,12 +1746,12 @@ h4 {
 /* Adjust styles for mobile devices */
 @media (max-width: 768px) {
   .movies {
-    font-size: 18px;  /* Slightly smaller font for mobile */
-    margin-top: 30px;  /* Adjust margin for better spacing */
+    font-size: 16px;  /* Slightly smaller font for mobile */
+    margin-top: 0px;  /* Adjust margin for better spacing */
   }
 
   h4 {
-    font-size: 15px;  /* Smaller font size for h4 on mobile */
+    font-size: 35px;  /* Smaller font size for h4 on mobile */
     letter-spacing: 0.5px;  /* Adjust letter spacing */
     word-spacing: 0.5px;  /* Adjust word spacing */
   }
@@ -1761,11 +1761,11 @@ h4 {
 @media (max-width: 480px) {
   .movies {
     font-size: 16px;  /* Even smaller font for very small screens */
-    margin-top: 20px;  /* Further reduce margin */
+    margin-top: 0px;  /* Further reduce margin */
   }
 
   h4 {
-    font-size: 70px;  /* Even smaller font for h4 */
+    font-size: 35px;  /* Even smaller font for POPULAR */
     letter-spacing: 0.3px;  /* Tighter letter-spacing */
     word-spacing: 0.3px;  /* Tighter word-spacing */
   }
