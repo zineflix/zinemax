@@ -1144,7 +1144,7 @@ body {
 
 .logo-container {
   position: fixed;
-  top: 20px;        /* Adjust top distance from the page */
+  top: 0px;        /* Adjust top distance from the page */
   left: 10px;       /* Ensure logo is on the left */
   z-index: 999;     /* Ensures logo stays on top */
 }
