@@ -1708,7 +1708,7 @@ background-color: #000000; /* Darker green on hover */
   color: white;  /* White color for MOVIES */
   display: inline-block; /* Keep MOVIES in one line */
   vertical-align: top; /* Align to the top */
-  margin-top: 24px;  /* Move "MOVIES" a little down */
+  margin-top: 10px;  /* Move "MOVIES" a little down */
   letter-spacing: -0.5px;  /* Slightly reduce spacing for a tighter look */
   margin-left: 5px;  /* A little space between "TOP" and "MOVIES" */
   line-height: 1;  /* Adjust line height for tighter spacing */
@@ -1747,7 +1747,7 @@ h4 {
 @media (max-width: 768px) {
   .movies {
     font-size: 16px;  /* Slightly smaller font for mobile */
-    margin-top: 0px;  /* Adjust margin for better spacing */
+    margin-top: 10px;  /* Adjust margin for better spacing */
   }
 
   h4 {
@@ -1761,7 +1761,7 @@ h4 {
 @media (max-width: 480px) {
   .movies {
     font-size: 16px;  /* Even smaller font for very small screens */
-    margin-top: 1px;  /* Further reduce margin */
+    margin-top: 10px;  /* Further reduce margin */
   }
 
   h4 {
