@@ -1701,16 +1701,16 @@ background-color: #000000; /* Darker green on hover */
   }
 }
 
-/* Styles for the "CONTENT TODAY" text */
+/* Styles for the "MOVIES" text */
 .movies {
   font-family: "Electronica Display Outline";  
   font-size: 20px;  /* Default font size */
-  color: white;  /* White color for Content Today */
-  display: inline-block; /* Keep Content Today in one line */
+  color: white;  /* White color for MOVIES */
+  display: inline-block; /* Keep MOVIES in one line */
   vertical-align: top; /* Align to the top */
-  margin-top: 40px;  /* Move "Content Today" a little down */
+  margin-top: 40px;  /* Move "MOVIES" a little down */
   letter-spacing: -0.5px;  /* Slightly reduce spacing for a tighter look */
-  margin-left: 5px;  /* A little space between "TOP" and "Content Today" */
+  margin-left: 5px;  /* A little space between "TOP" and "MOVIES" */
   line-height: 1;  /* Adjust line height for tighter spacing */
 }
 
@@ -1745,7 +1745,7 @@ h4 {
 
 /* Adjust styles for mobile devices */
 @media (max-width: 768px) {
-  .content-today {
+  .movies {
     font-size: 18px;  /* Slightly smaller font for mobile */
     margin-top: 30px;  /* Adjust margin for better spacing */
   }
@@ -1759,7 +1759,7 @@ h4 {
 
 /* Further adjustments for very small screens (e.g., phones in portrait mode) */
 @media (max-width: 480px) {
-  .content-today {
+  .movies {
     font-size: 16px;  /* Even smaller font for very small screens */
     margin-top: 20px;  /* Further reduce margin */
   }
