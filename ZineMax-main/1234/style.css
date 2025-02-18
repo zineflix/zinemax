@@ -1702,7 +1702,7 @@ background-color: #000000; /* Darker green on hover */
 }
 
 /* Styles for the "CONTENT TODAY" text */
-.content-today {
+.movies {
   font-family: "Electronica Display Outline";  
   font-size: 20px;  /* Default font size */
   color: white;  /* White color for Content Today */
