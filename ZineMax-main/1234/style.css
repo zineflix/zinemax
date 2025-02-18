@@ -1714,7 +1714,7 @@ background-color: #000000; /* Darker green on hover */
   line-height: 1;  /* Adjust line height for tighter spacing */
 }
 
-/* Styles for the h4 */
+/* Styles for the POPULAR */
 h4 {
   font-family: "Electronica Display Outline";  
   font-size: 50px;  /* Larger font for TOP */
@@ -1724,7 +1724,7 @@ h4 {
   background-clip: text;
   letter-spacing: 1px;  
   word-spacing: 1px;  
-  line-height: 1.2;  
+  line-height: 1;  
   text-align: left;  /* Align text to the left */
   animation: fadeInFromRight 2s ease-out; 
 }
