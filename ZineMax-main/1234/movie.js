@@ -462,7 +462,7 @@ fetchMovies('action', 'actionMovies');
 fetchMovies('comedy', 'comedyMovies');
 fetchMovies('horror', 'horrorMovies');
 fetchMovies('romance', 'romanceMovies');
-fetchMovies('documentary', 'documentaries');
+fetchMovies('animation', 'animation');
 
 // Fetch banner details
 fetchBanner();
