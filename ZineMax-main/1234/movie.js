@@ -11,7 +11,7 @@ const fetchMovies = async (category, rowId) => {
                 break; 
             case 'popular1':
                 url = `${baseUrl}/discover/movie?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=500&vote_average=10&page=1`;
-                break; // for Index POPULAR INDEX             
+                break; // for Index POPULAR MOVIES            
             case 'trending':
                 url = `${baseUrl}/trending/movie/week?api_key=${apiKey}`;
                 break;
@@ -459,7 +459,7 @@ fetchMovieDetails();
 
 // Fetch data for different categories
 fetchMovies('popular', 'popularMovies');
-fetchMovies('popular1', 'popularMovies1');
+fetchMovies('popular1', 'popularMovies1'); // for Index POPULAR MOVIES
 fetchMovies('trending', 'trendingNow');
 fetchMovies('top_rated', 'topRated');
 fetchMovies('action', 'actionMovies');
