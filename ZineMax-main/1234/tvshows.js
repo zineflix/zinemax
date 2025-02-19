@@ -10,7 +10,7 @@ const fetchTVShows = async (category, rowId) => {
                 url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=10000&vote_average=10&page=1`;
                 break;
             case 'popular1':
-                url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=10000&vote_average=10&page=1`;
+                url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=5000&vote_average=10&page=1`;
                 break; // for Index POPULAR TV SHOWS
             case 'trending':
                 url = `${baseUrl}/trending/tv/week?api_key=${apiKey}`;
