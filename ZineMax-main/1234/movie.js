@@ -28,7 +28,7 @@ const fetchMovies = async (category, rowId) => {
                 url = `${baseUrl}/discover/movie?api_key=${apiKey}&with_genres=10749&page=1`;
                 break;
             case 'animation':
-                url = `${baseUrl}/discover/movie?api_key=${apiKey}&with_genres=99&page=1`;
+                url = `${baseUrl}/discover/movie?api_key=${apiKey}&with_genres=16&page=1`;
                 break;
             default:
                 console.log('Unknown category');
