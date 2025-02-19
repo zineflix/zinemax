@@ -455,7 +455,7 @@ const fetchMoreLikeThis = async (movieId) => {
 fetchMovieDetails();
 
 // Fetch data for different categories
-fetchMovies('popular', 'netflixOriginals');
+fetchMovies('popular', 'popularMovies');
 fetchMovies('trending', 'trendingNow');
 fetchMovies('top_rated', 'topRated');
 fetchMovies('action', 'actionMovies');
