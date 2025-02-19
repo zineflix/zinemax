@@ -7,7 +7,7 @@ const fetchMovies = async (category, rowId) => {
         let url = '';
         switch (category) {
             case 'popular':
-                url = `${baseUrl}/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
+                url = `${baseUrl}/movie/popular?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=500&page=1`;
                 break;
             case 'trending':
                 url = `${baseUrl}/trending/movie/week?api_key=${apiKey}`;
