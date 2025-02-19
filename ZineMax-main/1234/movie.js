@@ -27,7 +27,7 @@ const fetchMovies = async (category, rowId) => {
             case 'romance':
                 url = `${baseUrl}/discover/movie?api_key=${apiKey}&with_genres=10749&page=1`;
                 break;
-            case 'documentary':
+            case 'animation':
                 url = `${baseUrl}/discover/movie?api_key=${apiKey}&with_genres=99&page=1`;
                 break;
             default:
