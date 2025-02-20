@@ -13,9 +13,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
       <link rel="manifest" href="manifest.json">
       <link rel="preload" href="1234/style.css" as="style">
-      <link rel="preload" href="1234/movie.js" as="app">
-      <link rel="preload" href="1234/tvshows.js" as="tvshows">
+      <link rel="preload" href="1234/home.js" as="home">
       <link href="https://db.onlinewebfonts.com/c/25ee966fb81cd61ffdfb393e81c7bf4b?family=Electronica+Display+Outline" rel="stylesheet">
+      <link href="https://db.onlinewebfonts.com/c/6aa9c3aef30b81ee339ac2df6fee25f5?family=Electronica+Display+Solid" rel="stylesheet">
   </head> 
     
   <body>
@@ -90,7 +90,7 @@
       <!-- Popular Movies Section -->
       <div class="row">
         <h4>POPULAR<span class="movies">M O V I E S</span></h4> 
-            <div class="row__posters" id="popularMovie">
+            <div class="row__posters" id="popularMovies">
             <!-- Movie posters will be added here dynamically -->
           </div>
           <div class="arrow-buttons">
@@ -101,8 +101,8 @@
 
       <!-- Popular TV Series Section -->
       <div class="row">
-        <h4>POPULAR<span class="tv-shows">T V  S E R I E S</span></h4> 
-            <div class="row__posters" id="TVSeries">
+        <h4>POPULAR<span class="tv-series">T V  S E R I E S</span></h4> 
+            <div class="row__posters" id="popularTvSeries">
             <!-- Popular TV show posters will be added dynamically -->
         </div>
         <div class="arrow-buttons">
@@ -111,10 +111,10 @@
         </div>
     </div>    
  
-      <!-- Top Rated -->
+      <!-- Popular K-Drama -->
       <div class="row">
-          <h2>Top Rated</h2>
-          <div class="row__posters" id="topRated">
+          <h2 "><span class="k-drama">K-Drama</span></h2>
+          <div class="row__posters" id="popularKdrama">
               <!-- Movie posters will be populated here -->
           </div>
           <div class="arrow-buttons">
@@ -123,10 +123,10 @@
           </div>
         </div>    
 
-      <!-- Action Movies -->
+      <!-- Popular Anime-->
       <div class="row">
-          <h2>Action Movies</h2>
-          <div class="row__posters" id="actionMovies">
+          <h2><span class="anime">Anime</span></h2>
+          <div class="row__posters" id="popularAnime">
               <!-- Movie posters will be populated here -->
         </div>
         <div class="arrow-buttons">
@@ -135,44 +135,18 @@
         </div>
       </div>   
 
-      <!-- Comedy Movies -->
+      <!-- Popular Vivamax -->
       <div class="row">
-          <h2>Comedy Movies</h2>
-          <div class="row__posters" id="comedyMovies">
+          <h2><span class="vivamax">Vivamax</span></h2>
+          <div class="row__posters" id="popularVivamax">
               <!-- Movie posters will be populated here -->
           </div>
           <div class="arrow-buttons">
             <button class="arrow-button prev"><i class="fas fa-chevron-left"></i></button>
             <button class="arrow-button next"><i class="fas fa-chevron-right"></i></button>
           </div>
-        </div>    
+        </div>      
 
-      <!-- Horror Movies -->
-      <div class="row">
-          <h2>Horror Movies</h2>
-          <div class="row__posters" id="horrorMovies">
-              <!-- Movie posters will be populated here -->
-          </div>
-          <div class="arrow-buttons">
-            <button class="arrow-button prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="arrow-button next"><i class="fas fa-chevron-right"></i></button>
-          </div>
-        </div>    
-
-      <!-- Animation Movies -->
-      <div class="row">
-          <h2>Animation</h2>
-          <div class="row__posters" id="animation">
-              <!-- Movie posters will be populated here -->
-          </div>
-          <div class="arrow-buttons">
-            <button class="arrow-button prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="arrow-button next"><i class="fas fa-chevron-right"></i></button>
-          </div>
-        </div>    
-
-      <script src="1234/movie.js"></script>
-      <script src="1234/tvshows.js"></script>
       <script src="1234/home.js"></script>
 
       <script>
@@ -205,6 +179,15 @@
       }
   </script>
 
+      <script
+  disable-copy='true'
+  disable-cut='true'
+  disable-paste='true'
+  clear-log='true'
+  disable-devtool-auto
+  disable-menu='false'
+  src='https://cdn.jsdelivr.net/npm/disable-devtool'
+></script>
   </body>
 
   </html>
