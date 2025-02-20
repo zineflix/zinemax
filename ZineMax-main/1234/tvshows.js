@@ -9,7 +9,7 @@ const fetchTVShows = async (category, rowId) => {
             case 'popular':
                 url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=10000&vote_average=10&page=1`;
                 break;
-            case 'popular2':
+            case 'tvseries':
                 url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=5000&vote_average=10&page=1`;
                 break; // for Index POPULAR TV SHOWS
             case 'trending':
@@ -497,7 +497,7 @@ fetchTVShowDetails();
 
 // Fetch data for different TV show categories
 fetchTVShows('popular', 'popularTVShows');
-fetchTVShows('popular2', 'popularTVSeries'); // for Index POPULAR TV SHOWS
+fetchTVShows('tvseries', 'popularTVSeries'); // for Index POPULAR TV SHOWS
 fetchTVShows('trending', 'trendingTVShows');
 fetchTVShows('top_rated', 'topRatedTVShows');
 fetchTVShows('drama', 'dramaTVShows');
