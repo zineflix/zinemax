@@ -446,11 +446,11 @@ const fetchMoreLikeThis = async (movieId) => {
 fetchMovieDetails();
 
 // Fetch data for different categories
-fetchMovies('popular01', 'popularMovies2');
-fetchMovies('popular02', 'popularTvSeries');
-fetchMovies('popular03', 'popularKdrama');
-fetchMovies('popular04', 'popularAnime');
-fetchMovies('popular05', 'popularVivamax');
+fetchMovies('popular01', 'Movies');
+fetchMovies('popular02', 'TvSeries');
+fetchMovies('popular03', 'Kdrama');
+fetchMovies('popular04', 'Anime');
+fetchMovies('popular05', 'Vivamax');
 
 // Fetch banner details
 fetchBanner();
