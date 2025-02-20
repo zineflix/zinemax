@@ -1714,16 +1714,16 @@ background-color: #000000; /* Darker green on hover */
   line-height: 1;  /* Adjust line height for tighter spacing */
 }
 
-/* Styles for the "TV SHOWS" text */
-.tv-shows {
+/* Styles for the "TV-SERIES" text */
+.tv-series {
   font-family: "Electronica Display Outline";  
   font-size: 25px;  /* Default font size */
-  color: white;  /* White color for TV SHOWS */
-  display: inline-block; /* Keep TV SHOWS in one line */
+  color: white;  /* White color for TV-SERIES */
+  display: inline-block; /* Keep TV-SERIES in one line */
   vertical-align: top; /* Align to the top */
-  margin-top: 13px;  /* Move "TV SHOWS" a little down */
-  letter-spacing: -0.5px;  /* Slightly reduce spacing for a tighter look */
-  margin-left: 5px;  /* A little space between "TOP" and "TV SHOWS" */
+  margin-top: 13px;  /* Move "TV-SERIES" a little down */
+  letter-spacing: 1px;  /* Slightly reduce spacing for a tighter look */
+  margin-left: 5px;  /* A little space between "TOP" and "TV-SERIES" */
   line-height: 1;  /* Adjust line height for tighter spacing */
 }
 
@@ -1740,6 +1740,45 @@ h4 {
   line-height: 1;  
   text-align: left;  /* Align text to the left */
   animation: fadeInFromRight 2s ease-out; 
+}
+
+/* Styles for the "K-DRAMA" text */
+.k-drama {
+  font-family: "Electronica Display Outline";  
+  font-size: 25px;  /* Default font size */
+  color: white;  /* White color for K-DRAMA */
+  display: inline-block; /* Keep K-DRAMA in one line */
+  vertical-align: top; /* Align to the top */
+  margin-top: 13px;  /* Move "K-DRAMA" a little down */
+  letter-spacing: 0px;  /* Slightly reduce spacing for a tighter look */
+  margin-left: 5px;  /* A little space between "TOP" and "K-DRAMA" */
+  line-height: 1;  /* Adjust line height for tighter spacing */
+}
+
+/* Styles for the "ANIME" text */
+.anime {
+  font-family: "Electronica Display Outline";  
+  font-size: 25px;  /* Default font size */
+  color: white;  /* White color for ANIME */
+  display: inline-block; /* Keep ANIME in one line */
+  vertical-align: top; /* Align to the top */
+  margin-top: 13px;  /* Move "ANIME" a little down */
+  letter-spacing: 0px;  /* Slightly reduce spacing for a tighter look */
+  margin-left: 5px;  /* A little space between "TOP" and "ANIME" */
+  line-height: 1;  /* Adjust line height for tighter spacing */
+}
+
+/* Styles for the "VIVAMAX" text */
+.vivamax {
+  font-family: "Electronica Display Outline";  
+  font-size: 25px;  /* Default font size */
+  color: white;  /* White color for VIVAMAX */
+  display: inline-block; /* Keep VIVAMAX in one line */
+  vertical-align: top; /* Align to the top */
+  margin-top: 13px;  /* Move "VIVAMAX" a little down */
+  letter-spacing: 0px;  /* Slightly reduce spacing for a tighter look */
+  margin-left: 5px;  /* A little space between "TOP" and "VIVAMAX" */
+  line-height: 1;  /* Adjust line height for tighter spacing */
 }
 
 /* Keyframe animation */
@@ -1763,7 +1802,7 @@ h4 {
     margin-top: 10px;  /* Adjust margin for better spacing */
   }
 
- .tv-shows {
+ .tv-series {
     font-size: 16px;  /* Slightly smaller font for mobile */
     margin-top: 10px;  /* Adjust margin for better spacing */
   }
@@ -1773,6 +1812,22 @@ h4 {
     letter-spacing: 0.5px;  /* Adjust letter spacing */
     word-spacing: 0.5px;  /* Adjust word spacing */
   }
+  
+  .k-drama {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }
+  
+  .anime {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }
+  
+  .vivamax {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }  
+  
 }
 
 /* Further adjustments for very small screens (e.g., phones in portrait mode) */
@@ -1782,7 +1837,7 @@ h4 {
     margin-top: 10px;  /* Further reduce margin */
   }
 
-  .tv-shows {
+  .tv-series {
     font-size: 16px;  /* Even smaller font for very small screens */
     margin-top: 10px;  /* Further reduce margin */
   }
@@ -1792,4 +1847,20 @@ h4 {
     letter-spacing: 0.3px;  /* Tighter letter-spacing */
     word-spacing: 0.3px;  /* Tighter word-spacing */
   }
+  
+  .k-drama {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }
+  
+    .anime {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }
+  
+    .vivamax {
+    font-size: 16px;  /* Even smaller font for very small screens */
+    margin-top: 10px;  /* Further reduce margin */
+  }  
+  
 }
