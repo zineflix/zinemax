@@ -7,21 +7,5 @@
   <changefreq>daily</changefreq>    
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://zinemax.netlify.app/movies</loc>
-  <lastmod>2025-02-20</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://zinemax.netlify.app/tvshows_page</loc>
-  <lastmod>2025-02-20</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://zinemax.netlify.app/sorting</loc>
-  <lastmod>2025-02-20</lastmod>
-  <priority>0.80</priority>
-</url>
-
 
 </urlset>
