@@ -6,21 +6,22 @@ const fetchMovies = async (category, rowId) => {
     try {
         let url = '';
         switch (category) {
-            case 'popular01':
+            case 'movies':
                 url = `${baseUrl}/discover/movie?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=500&vote_average=10&page=1`;
                 break; // for Movies
-            case 'popular02':
+            case 'tvseries':
                 url = `${baseUrl}/discover/tv?api_key=${apiKey}&sort_by=popularity.desc&vote_count.gte=10000&vote_average=10&page=1`;
                 break; // for TV-Series
-            case 'popular03':
-                url = `${baseUrl}/discover/tv?api_key=${apiKey}&include_adult=true&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_count.gte=10000&with_origin_country=KR`; // for K-Drama
+            case 'kdrama':
+                url = `${baseUrl}/discover/tv?api_key=${apiKey}&include_adult=true&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_count.gte=500&with_origin_country=KR`; // for K-Drama
                 break;
-            case 'popular04':
-                url = `${baseUrl}/discover/tv?api_key=${apiKey}&include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_average.gte=8&vote_average.lte=10&vote_count.gte=500&with_genres=16&with_origin_country=JP&with_original_language=ja`;
+            case 'anime':
+                url = `${baseUrl}/discover/tv?api_key=${apiKey}&include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_average.gte=8&vote_average.lte=10&vote_count.gte=500&with_genres=16&with_origin_country=JP&with_original_language=ja`; // for Anime
                 break;
-            case 'popular05':
-                url = `${${baseUrl}/discover/tv?api_key=${apiKey}&certification=R18&include_adult=true&include_video=false&language=en-US&page=1&region=PH&sort_by=popularity.desc&vote_count.gte=5&vote_count.lte=10&watch_region=PH&with_companies=149142&with_origin_country=PH&with_original_language=tl`;
+            case 'vivamax':
+                url = `${baseUrl}/discover/tv?api_key=${apiKey}&certification=R18&include_adult=true&include_video=false&language=en-US&page=1&region=PH&sort_by=popularity.desc&vote_count.gte=0&vote_count.lte=10&watch_region=PH&with_companies=149142&with_origin_country=PH&with_original_language=tl`; // for Vivamax
                 break;
+             
             default:
                 console.log('Unknown category');
                 return;
@@ -446,11 +447,11 @@ const fetchMoreLikeThis = async (movieId) => {
 fetchMovieDetails();
 
 // Fetch data for different categories
-fetchMovies('popular01', 'Movies');
-fetchMovies('popular02', 'TvSeries');
-fetchMovies('popular03', 'Kdrama');
-fetchMovies('popular04', 'Anime');
-fetchMovies('popular05', 'Vivamax');
+fetchMovies('movies', 'popularMovies');
+fetchMovies('tvseries', 'popularTvSeries');
+fetchMovies('kdrama', 'popularKdrama');
+fetchMovies('anime', 'popularAnime');
+fetchMovies('vivamax', 'popularVivamax');
 
 // Fetch banner details
 fetchBanner();
